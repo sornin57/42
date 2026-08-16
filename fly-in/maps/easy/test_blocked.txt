@@ -1,0 +1,11 @@
+nb_drones: 2
+
+start_hub: start 0 0 [color=green]
+hub: blocked_path 1 0 [zone=blocked color=red]
+hub: safe_path 1 1 [color=blue]
+end_hub: goal 2 0 [color=green]
+
+connection: start-blocked_path
+connection: blocked_path-goal
+connection: start-safe_path
+connection: safe_path-goal

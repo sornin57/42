@@ -4,9 +4,9 @@ import json
 import math
 import re
 
-from llm_sdk.llm_sdk import Small_LLM_Model
+from llm_sdk import Small_LLM_Model
 
-from app.call_me_maybe.models import FunctionDefinition
+from src.models import FunctionDefinition
 
 
 def load_model() -> Small_LLM_Model:

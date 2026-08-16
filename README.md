@@ -1,5 +1,7 @@
 # 42 Projects
 
+[![CI](https://github.com/sornin57/42-projects/actions/workflows/ci.yml/badge.svg)](https://github.com/sornin57/42-projects/actions/workflows/ci.yml)
+
 Collection of 42 school projects by msornin.
 
 ## Projects

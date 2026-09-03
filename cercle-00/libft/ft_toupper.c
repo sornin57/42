@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msornin <msornin@student.42.fr>            +#+  +:+       +#+        */
+/*   By: msornin <msornin@student.42luxembourg.l    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/03 00:00:00 by msornin           #+#    #+#             */
-/*   Updated: 2026/09/03 00:00:00 by msornin          ###   ########.fr       */
+/*   Updated: 2026/09/03 21:34:33 by msornin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 int	ft_toupper(int c)
 {
-	(void)c;
-	return (0);
+	if (c >= 'a' && c <= 'z')
+		return (c - 32);
+	return (c);
 }

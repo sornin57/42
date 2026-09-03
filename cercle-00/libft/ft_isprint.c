@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msornin <msornin@student.42.fr>            +#+  +:+       +#+        */
+/*   By: msornin <msornin@student.42luxembourg.l    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/03 00:00:00 by msornin           #+#    #+#             */
-/*   Updated: 2026/09/03 00:00:00 by msornin          ###   ########.fr       */
+/*   Updated: 2026/09/03 20:55:05 by msornin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 int	ft_isprint(int c)
 {
-	(void)c;
+	if (c >= 32 && c <= 126)
+		return (1);
 	return (0);
 }

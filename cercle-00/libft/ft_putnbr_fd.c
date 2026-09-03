@@ -12,8 +12,25 @@
 
 #include "libft.h"
 
+static void	ft_putlong_fd(long n, int fd)
+{
+	char	c;
+
+	if (n >= 10)
+		ft_putlong_fd(n / 10, fd);
+	c = (n % 10) + '0';
+	write(fd, &c, 1);
+}
+
 void	ft_putnbr_fd(int n, int fd)
 {
-	(void)n;
-	(void)fd;
+	long	nb;
+
+	nb = n;
+	if (nb < 0)
+	{
+		ft_putchar_fd('-', fd);
+		nb = -nb;
+	}
+	ft_putlong_fd(nb, fd);
 }

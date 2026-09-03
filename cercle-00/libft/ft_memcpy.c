@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msornin <msornin@student.42.fr>            +#+  +:+       +#+        */
+/*   By: msornin <msornin@student.42luxembourg.l    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/03 00:00:00 by msornin           #+#    #+#             */
-/*   Updated: 2026/09/03 00:00:00 by msornin          ###   ########.fr       */
+/*   Updated: 2026/09/03 21:26:53 by msornin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,19 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	(void)dst;
-	(void)src;
-	(void)n;
-	return (NULL);
+	unsigned char		*d;
+	const unsigned char	*s;
+	size_t				i;
+
+	if (dst == NULL && src == NULL)
+		return (NULL);
+	d = (unsigned char *)dst;
+	s = (const unsigned char *)src;
+	i = 0;
+	while (i < n)
+	{
+		d[i] = s[i];
+		i++;
+	}
+	return (dst);
 }

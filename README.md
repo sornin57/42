@@ -35,5 +35,3 @@ Collection of 42 school projects by msornin, organized by circle.
 
 Each project keeps its own README and commands.
 Generated files such as virtual environments, caches, and Python bytecode are ignored.
-
-The former root-level project copies are kept for now to avoid deleting anything without explicit confirmation.

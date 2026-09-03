@@ -7,6 +7,30 @@ on:
     branches: ["main"]
 
 jobs:
+  libft:
+    name: libft norminette and build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install norminette
+        run: python -m pip install --upgrade norminette
+
+      - name: Run norminette
+        working-directory: cercle-00/libft
+        run: norminette .
+
+      - name: Build libft
+        working-directory: cercle-00/libft
+        run: make
+
   call-me-maybe:
     name: call-me-maybe tests
     runs-on: ubuntu-latest

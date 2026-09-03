@@ -6,7 +6,8 @@ Collection of 42 school projects by msornin, organized by circle.
 
 ## Circles
 
-- `cercle-00` - Ready for future projects.
+- `cercle-00`
+  - `libft` - C library skeleton with Makefile and norminette CI.
 - `cercle-01` - Ready for future projects.
 - `cercle-02` - Ready for future projects.
 - `cercle-03`
@@ -21,6 +22,7 @@ Collection of 42 school projects by msornin, organized by circle.
 ```text
 42/
 ├── cercle-00/
+│   └── libft/
 ├── cercle-01/
 ├── cercle-02/
 ├── cercle-03/

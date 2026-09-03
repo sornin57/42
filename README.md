@@ -6,12 +6,12 @@ Collection of 42 school projects by msornin, organized by circle.
 
 ## Circles
 
-- `cercle-00`
-  - `call-me-maybe` - Python project around an LLM-style workflow and file processing.
-  - `fly-in` - Pathfinding and simulation project with maps and tests.
+- `cercle-00` - Ready for future projects.
 - `cercle-01` - Ready for future projects.
 - `cercle-02` - Ready for future projects.
-- `cercle-03` - Ready for future projects.
+- `cercle-03`
+  - `call-me-maybe` - Python project around an LLM-style workflow and file processing.
+  - `fly-in` - Pathfinding and simulation project with maps and tests.
 - `cercle-04` - Ready for future projects.
 - `cercle-05` - Ready for future projects.
 - `cercle-06` - Ready for future projects.
@@ -21,11 +21,11 @@ Collection of 42 school projects by msornin, organized by circle.
 ```text
 42/
 ├── cercle-00/
-│   ├── call-me-maybe/
-│   └── fly-in/
 ├── cercle-01/
 ├── cercle-02/
 ├── cercle-03/
+│   ├── call-me-maybe/
+│   └── fly-in/
 ├── cercle-04/
 ├── cercle-05/
 └── cercle-06/

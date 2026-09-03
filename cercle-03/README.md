@@ -1,3 +1,6 @@
 # Cercle 03
 
-Ready for future 42 projects.
+Projects currently grouped in this circle:
+
+- `call-me-maybe` - Python project around an LLM-style workflow and file processing.
+- `fly-in` - Pathfinding and simulation project with maps and tests.

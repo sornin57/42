@@ -24,11 +24,11 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
-        working-directory: cercle-00/call-me-maybe
+        working-directory: cercle-03/call-me-maybe
         run: uv sync --dev
 
       - name: Run tests
-        working-directory: cercle-00/call-me-maybe
+        working-directory: cercle-03/call-me-maybe
         run: uv run pytest
 
   fly-in:
@@ -45,5 +45,5 @@ jobs:
           python-version: "3.11"
 
       - name: Run tests
-        working-directory: cercle-00/fly-in
+        working-directory: cercle-03/fly-in
         run: python -m unittest discover -s tests
